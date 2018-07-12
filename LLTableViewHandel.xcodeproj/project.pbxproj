@@ -15,6 +15,7 @@
 		124D4C6820F5C96700E72127 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D4C6720F5C96700E72127 /* main.m */; };
 		124D4C7220F5C96700E72127 /* LLTableViewHandelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D4C7120F5C96700E72127 /* LLTableViewHandelTests.m */; };
 		124D4C7D20F5C96700E72127 /* LLTableViewHandelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D4C7C20F5C96700E72127 /* LLTableViewHandelUITests.m */; };
+		124D4C9120F5CA7200E72127 /* LLTableViewMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 124D4C9020F5CA7200E72127 /* LLTableViewMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		124D4C7820F5C96700E72127 /* LLTableViewHandelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLTableViewHandelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		124D4C7C20F5C96700E72127 /* LLTableViewHandelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTableViewHandelUITests.m; sourceTree = "<group>"; };
 		124D4C7E20F5C96700E72127 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124D4C8F20F5CA7200E72127 /* LLTableViewMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLTableViewMaker.h; sourceTree = "<group>"; };
+		124D4C9020F5CA7200E72127 /* LLTableViewMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLTableViewMaker.m; sourceTree = "<group>"; };
+		124D4C9220F5E62200E72127 /* LLTableViewMakerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTableViewMakerProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				124D4C5920F5C96600E72127 /* AppDelegate.m */,
 				124D4C5B20F5C96600E72127 /* ViewController.h */,
 				124D4C5C20F5C96600E72127 /* ViewController.m */,
+				124D4C8F20F5CA7200E72127 /* LLTableViewMaker.h */,
+				124D4C9020F5CA7200E72127 /* LLTableViewMaker.m */,
+				124D4C9220F5E62200E72127 /* LLTableViewMakerProtocol.h */,
 				124D4C5E20F5C96600E72127 /* Main.storyboard */,
 				124D4C6120F5C96700E72127 /* Assets.xcassets */,
 				124D4C6320F5C96700E72127 /* LaunchScreen.storyboard */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124D4C9120F5CA7200E72127 /* LLTableViewMaker.m in Sources */,
 				124D4C5D20F5C96600E72127 /* ViewController.m in Sources */,
 				124D4C6820F5C96700E72127 /* main.m in Sources */,
 				124D4C5A20F5C96600E72127 /* AppDelegate.m in Sources */,

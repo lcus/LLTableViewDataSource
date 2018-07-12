@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#include <mach-o/dyld.h>
+#import <mach/mach.h>
+
 
 @interface ViewController ()
 
@@ -16,7 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, ty
+    
+//    pically from a nib.
+    
+    
+  
+    
+
+    
 }
 
 
